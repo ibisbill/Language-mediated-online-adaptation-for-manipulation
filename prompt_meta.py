@@ -44,7 +44,7 @@ New task: Door-open
     all numbers should be divided to 3 decimal places. be aware to follow the format and the  punctuation marks.
 '''
 
-# self reflect 每次把pre obs和真实obs一起放进去，然后校准
+# self-reflect: feed the predicted obs and real obs together each step for calibration
 
 interact_prompt = '''
     The previous history is {previous_history}.

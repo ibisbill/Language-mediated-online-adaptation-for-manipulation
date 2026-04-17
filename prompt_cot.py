@@ -43,7 +43,7 @@ New task: Door-open
     The previous action is [ , , , ], The predicted current action is [ , , , ], The predicted next observation is [ , , , ], all numbers should be divided to 3 decimal places.
 '''
 
-# interact prompt是没有更新history cash的版本
+# interact_prompt does not include updated history cache
 
 interact_prompt = '''
     The previous action is {previous_action}, the current obersvation is {current_observation}, please infer the next action and the next observation.
